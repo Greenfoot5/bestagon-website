@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="">
-  <head>
+<head>
     <meta charset="UTF-8">
     <link href="output.css" rel="stylesheet">
-      <title>Alchemix Home</title>
-  </head>
-  <body>
+    <title>Alchemix Home</title>
+</head>
+<body>
+<div>
     <div>
-      <div>
         <img src="icons/ubuntu-logo.png" alt="Ubuntu Logo"
              style="width:184px;height:146px;"/>
         <div>
-          <span style="margin-top: 1.5em;">
-            Apache2 Default Page
-          </span>
+            <span style="margin-top: 1.5em;">
+              Apache2 Default Page
+            </span>
         </div>
         <div class="bg-indigo-300">
-          <div id="about"></div>
-          It works!
+            <div id="about"></div>
+            It works!
         </div>
+    </div>
 
-      </div>
-      <div>
+    <div>
         <div>
-          <p>
+            <p>
                 This is the default welcome page used to test the correct
                 operation of the Apache2 server after installation on Ubuntu systems.
                 It is based on the equivalent page on Debian, from which the Ubuntu Apache
@@ -31,35 +31,35 @@
                 If you can read this page, it means that the Apache HTTP server installed at
                 this site is working properly. You should <b>replace this file</b> (located at
                 "/var/www/html/index.html") before continuing to operate your HTTP server.
-          </p>
+            </p>
 
-          <p>
+            <p>
                 If you are a normal user of this web site and don't know what this page is
                 about, this probably means that the site is currently unavailable due to
                 maintenance.
                 If the problem persists, please contact the site's administrator.
-          </p>
+            </p>
 
         </div>
         <div class="bg-indigo-800">
-          <div></div>
-                Configuration Overview
+            <div></div>
+            Configuration Overview
         </div>
         <div>
-          <p>
+            <p>
                 Ubuntu's Apache2 default configuration is different from the
                 upstream default configuration, and split into several files optimized for
                 interaction with Ubuntu tools. The configuration system is
                 <b>fully documented in
-                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
+                    /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
                 documentation. Documentation for the web server itself can be
                 found by accessing the <a href="/manual">manual</a> if the "apache2-doc"
                 package was installed on this server.
-          </p>
-          <p>
+            </p>
+            <p>
                 The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:
-          </p>
-          <pre>
+            </p>
+            <pre>
 /etc/apache2/
 |-- apache2.conf
 |       `--  ports.conf
@@ -70,56 +70,56 @@
 |       `-- *.conf
 |-- sites-enabled
 |       `-- *.conf
-          </pre>
-          <ul>
-                        <li>
-                           apache2.conf is the main configuration
-                           file. It puts the pieces together by including all remaining configuration
-                           files when starting up the web server.
-                        </li>
+            </pre>
+                <ul>
+                    <li>
+                        apache2.conf is the main configuration
+                        file. It puts the pieces together by including all remaining configuration
+                        files when starting up the web server.
+                    </li>
 
-                        <li>
-                           ports.conf is always included from the
-                           main configuration file. It is used to determine the listening ports for
-                           incoming connections, and this file can be customized anytime.
-                        </li>
+                    <li>
+                        ports.conf is always included from the
+                        main configuration file. It is used to determine the listening ports for
+                        incoming connections, and this file can be customized anytime.
+                    </li>
 
-                        <li>
-                           Configuration files in the mods-enabled/,
-                           conf-enabled/ and sites-enabled/ directories contain
-                           particular configuration snippets which manage modules, global configuration
-                           fragments, or virtual host configurations, respectively.
-                        </li>
+                    <li>
+                        Configuration files in the mods-enabled/,
+                        conf-enabled/ and sites-enabled/ directories contain
+                        particular configuration snippets which manage modules, global configuration
+                        fragments, or virtual host configurations, respectively.
+                    </li>
 
-                        <li>
-                           They are activated by symlinking available
-                           configuration files from their respective
-                           *-available/ counterparts. These should be managed
-                           by using our helpers
-                                a2enmod,
-                                a2dismod,
-                                a2ensite,
-                                a2dissite,
-                                a2enconf,
-                                a2disconf. See their respective man pages for detailed information.
-                        </li>
+                    <li>
+                        They are activated by symlinking available
+                        configuration files from their respective
+                        *-available/ counterparts. These should be managed
+                        by using our helpers
+                        a2enmod,
+                        a2dismod,
+                        a2ensite,
+                        a2dissite,
+                        a2enconf,
+                        a2disconf. See their respective man pages for detailed information.
+                    </li>
 
-                        <li>
-                           The binary is called apache2 and is managed using systemd, so to
-                           start/stop the service use systemctl start apache2 and
-                           systemctl stop apache2, and use systemctl status apache2
-                           and journalctl -u apache2 to check status. system
-                           and apache2ctl can also be used for service management if
-                           desired.
-                           <b>Calling /usr/bin/apache2 directly will not work</b> with the
-                           default configuration.
-                        </li>
-          </ul>
+                    <li>
+                        The binary is called apache2 and is managed using systemd, so to
+                        start/stop the service use systemctl start apache2 and
+                        systemctl stop apache2, and use systemctl status apache2
+                        and journalctl -u apache2 to check status. system
+                        and apache2ctl can also be used for service management if
+                        desired.
+                        <b>Calling /usr/bin/apache2 directly will not work</b> with the
+                        default configuration.
+                    </li>
+              </ul>
         </div>
 
         <div>
             <div></div>
-                Document Roots
+            Document Roots
         </div>
 
         <div>
@@ -139,23 +139,23 @@
         </div>
 
         <div>
-          <div></div>
-                Reporting Problems
+            <div></div>
+            Reporting Problems
         </div>
         <div>
-          <p>
+            <p>
                 Please use the ubuntu-bug tool to report bugs in the
                 Apache2 package with Ubuntu. However, check <a
-                href="https://bugs.launchpad.net/ubuntu/+source/apache2"
-                rel="nofollow">existing bug reports</a> before reporting a new bug.
-          </p>
-          <p>
+                    href="https://bugs.launchpad.net/ubuntu/+source/apache2"
+                    rel="nofollow">existing bug reports</a> before reporting a new bug.
+            </p>
+            <p>
                 Please report bugs specific to modules (such as PHP and others)
                 to their respective packages, not to the web server itself.
-          </p>
+            </p>
         </div>
 
-      </div>
     </div>
-  </body>
+</div>
+</body>
 </html>
