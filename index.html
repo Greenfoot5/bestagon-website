@@ -4,42 +4,52 @@
     <meta charset="UTF-8">
     <link href="output.css" rel="stylesheet">
     <title>Alchemix Home</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 </head>
-<body>
-<div class="bg-gradient-to-bl from-sky-500 via-cyan-300 to-teal-200 relative flex-auto min-h-screen flex-col justify-center overflow-hidden py-2 sm:py-12">
-    <div class="relative bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
-        <div>
-            <div class="bg-clip-text text-transparent bg-gradient-to-tr from-cyan-400 to-sky-500">
-<!--                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -2 24 24" class="w-9 h-9 align-middle float-left" fill="url(#gradientFill)">-->
-<!--                    <path fill="url(#gradientFill)" fill-rule="evenodd" d="M10.5 3.798v5.02a3 3 0 01-.879 2.121l-2.377 2.377a9.845 9.845 0 015.091 1.013 8.315 8.315 0 005.713.636l.285-.071-3.954-3.955a3 3 0 01-.879-2.121v-5.02a23.614 23.614 0 00-3 0zm4.5.138a.75.75 0 00.093-1.495A24.837 24.837 0 0012 2.25a25.048 25.048 0 00-3.093.191A.75.75 0 009 3.936v4.882a1.5 1.5 0 01-.44 1.06l-6.293 6.294c-1.62 1.621-.903 4.475 1.471 4.88 2.686.46 5.447.698 8.262.698 2.816 0 5.576-.239 8.262-.697 2.373-.406 3.092-3.26 1.47-4.881L15.44 9.879A1.5 1.5 0 0115 8.818V3.936z" clip-rule="evenodd" />-->
-<!--                    <linearGradient x1="0" y1="0" x2="1" y2="1" id="gradientFill">-->
-<!--                        <stop offset="0%" stop-color="teal-400"></stop>-->
-<!--                        <stop offset="100%" stop-color="cyan-400"></stop>-->
-<!--                    </linearGradient>-->
-<!--                </svg>-->
-                <div class="text-4xl align-middle font-semibold">
-                    Alchemix.dev
-                </div>
-            </div>
-            <div class="divide-y divide-gray-300/50">
-                <div class="space-y-6 py-8 leading-7 text-gray-600">
-                    <p class="text-lg">What is Alchemix.dev?</p>
-                    <p>
-                        The site where I (
-                        <a href="https://greenfoot5.alchemix.dev" class="underline decoration-emerald-600 decoration-1 hover:decoration-2">Greenfoot5</a>
-                        ) host information about myself and my various projects!.
-                    </p>
-                </div>
-                <div class="pt-8 text-base font-semibold leading-7">
-                    <p class="text-gray-900">Want to dig deeper into alchemix.dev?</p>
-                    <p>
-                        <a href="https://greenfoot5.alchemix.dev" class="text-emerald-500 hover:text-emerald-600">Learn about Greenfoot5 &rarr;</a> <br>
-                        <a href="https://bestagon.alchemix.dev" class="text-rose-700 hover:text-stone-900">Learn about Bestagon Defence &rarr;</a>
-                    </p>
-                </div>
-            </div>
+<body class="bg-bestagon-background">
+<!--Banner/Wordmark-->
+<div class="bg-bestagon-background flex justify-center">
+    <img src="assets/Bestagon_Wordmark.png" class="w-1/2" alt="Bestagon Defence Wordmark">
+</div>
+
+<!--Game description-->
+<div class="bg-bestagon-background text-bestagon-shooter flex grid-rows-2">
+    <div class="px-8">
+        <h1 class="text-6xl font-futured">About the game</h1>
+        <p class="text-white">
+            Bestagon Defence is a non-repetitive tower defence.
+            Often tower defences are repetitive, you find a strategy, and it all becomes rather similar.
+            So we've taken rogue-genre elements to spice it up, all upgrades can be applied to multiple turrets,
+            and the shop is randomised every time you open it! Sounds fun? Check out the game on itch.io!
+        </p>
+    </div>
+    <div>
+        <iframe src="https://itch.io/embed/894679?linkback=true&amp;bg_color=1e202c&amp;fg_color=1fc189&amp;link_color=e11e5e&amp;border_color=363636" width="552" height="167">
+            <a href="https://greenfoot5.itch.io/bestagon-defence">Bestagon Defence by Greenfoot5, 𝘽𝙇𝙊𝙊𝘿𝘞𝘐𝘐𝘕𝘎</a>
+        </iframe>
+    </div>
+</div>
+
+<!--Credits-->
+<div class="pt-12">
+    <h1 class="text-bestagon-laser text-6xl flex justify-center font-futured">Credits</h1>
+    <div class="grid grid-cols-2 md:grid-cols-4 justify-items-centre px-32 pt-8">
+        <div class="flex flex-col justify-center">
+            <img class="w-1/2 rounded-full aspect-square inset-0 place-self-center" src="assets/Greenfoot5_avatar.png" alt="Greenfoot5's avatar">
+            <p><a class="flex justify-center text-bestagon-shooter text-2xl font-futured" href="https://greenfoot5.alchemix.dev/">Greenfoot5</a></p>
+            <p class="flex justify-center text-white font-mono">Game Designer/Programmer</p>
+        </div>
+        <div class="flex flex-col">
+            <img class="w-1/2 rounded-full aspect-square inset-0 place-self-center" src="https://cdn.discordapp.com/avatars/292311529213132800/d81a90c3a0f8448fec4daf4a12d0c030.webp" alt="BLOODWIING's avatar">
+            <p><a class="flex justify-center text-bestagon-smasher text-2xl font-futured" href="https://twitter.com/BloodWiing">𝘽𝙇𝙊𝙊𝘿𝘞𝘐𝘐𝘕𝘎</a></p>
+            <p class="flex justify-center text-white font-mono">Game Designer/Programmer/Artist</p>
         </div>
     </div>
+</div>
+
+<!--Footer-->
+<div class="pt-12">
+    <h1 class="text-bestagon-lancer text-6xl flex justify-center font-futured">Links</h1>
 </div>
 </body>
 </html>
