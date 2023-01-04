@@ -42,7 +42,11 @@ module.exports = {
           DEFAULT: '#f8653a',
           light: '#f8653a',
           dark: '#bb4c29',
-        }
+        },
+      },
+      content: {
+        'life': 'url("/assets/life.png")',
+        'gold': 'url("/assets/gold.png")',
       },
       fontFamily: {
         'futured': ['futured'],
