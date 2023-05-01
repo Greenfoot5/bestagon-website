@@ -2,6 +2,7 @@
 module.exports = {
   content: [
       "*.{html,js}",
+      "updates/alpha/*.{html,js}"
   ],
   theme: {
     extend: {

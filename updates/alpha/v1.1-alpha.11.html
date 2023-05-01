@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../output.css" rel="stylesheet">
+  <link rel="icon" type="/image/x-icon" href="../../assets/favicon.ico">
+  <link rel="alternate" type="application/json+oembed"
+        href="v1.1-alpha.11-oembed.json"
+        title="Bestagon Defence v1.1-alpha.11"/>
+  <script src="../../banner.js"></script>
+  <script>window.onload = function(){getBanner(document.getElementById("bannerRoot"))}</script>
+  <title>v1.1-alpha.11</title>
+</head>
+<body class="bg-background">
+<!--Nav Bar-->
+<div class="min-h-full">
+  <nav class="bg-gradient-to-t from-[#0e0f15] to-[#181923]">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <div class="flex items-center">
+          <div class="flex-shrink-0"><img class="h-8 w-8" src="../../assets/icon-nb.svg" alt="Bestagon Logo"></div>
+          <div class="hidden md:block font-futured font-medium text-lg">
+            <div class="ml-10 flex items-baseline space-x-4">
+              <a href="#" class="text-lg text-smasher px-3 py-2 rounded-md" aria-current="page">v1.1-alpha.1</a>
+              <a href="../../index.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Home</a>
+              <a href="../../wiki.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Wiki</a>
+              <a href="../../github.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Github</a>
+              <a href="../../itch.html" class="text-white hover:text-laser px-3 py-2 rounded-md">itch.io</a>
+              <a href="../../discord.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Discord</a>
+              <a href="../../support.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Ko-Fi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!--Notification Banner-->
+<div id="bannerRoot"></div>
+
+<div>
+  Hello all, it's been a while! Sorry it's been so long,
+  I've been trying to do more frequent nightly uploads only on the Discord due to a significant change in the balance.
+  I think it's in an ok enough place for an alpha.
+  And during all those balance changes, I had plenty of time to add a few significant new features!
+</div>
+<div>
+  <h2>Super Significants</h2>
+  <div>
+    <h3>Tutorial</h3>
+    <div>
+      Add a tutorial that is rather boring and all text, but it's also only the first version.
+      If you're brand new to the game, or have already played a few times, do check it out,
+      as there's a few things in there that might surprise you.
+      There's also a wiki link.
+    </div>
+  </div>
+  <div>
+    <h3>Localisation & Settings</h3>
+    <div>
+      The game can now be translated into different languages!
+      Currently, I'm working on adding a pirate language as I only know English
+      (I've tried to learn French and Japanese in the past but sadly I've struggled).
+      There's still a lot to clean up, especially something like level name is used in multiple places rather than having just one reference.
+    </div>
+    <div>
+      To contribute to a localisation, there are forums on Discord for it.
+      If you wish to contribute, there isn't any code required, and if you really don't want to touch the code,
+      you can just mention the changes in the Discord forum and a contributor will get to it as soon as they can.
+      We can also add localisations without making the available so even if you only want to contribute one translation, that's fine!
+    </div>
+    <div>
+      The discussions are only on Discord for now.
+      I will be looking into how best to open the discussions on GitHub too, but for now it's Discord only.
+    </div>
+
+    <div>
+      The settings menu can be located from the main menu, and only contains a link to the privacy policy
+      and the localisation setting at the moment, but there are plans to at least add username changes there too before the beta.
+    </div>
+    <div>
+      This pirate language still needs work! There are a few modules that aren't updated, along with many buttons.
+      If you're interested in making up some pirate, join in the discussion!
+      Don't like pirate but want another fun language? Create it!
+    </div>
+  </div>
+  <div>
+    <h3>Merged Modules</h3>
+    <div>
+      Two modules of the same tier, will now be merged into the next tier!
+      This means very, *very*, significant changes to the modules balance,
+      the highest level of each module has probably increased for every module.
+      For example, damage, range and fire rate now reach T7.
+      You can find the balance changes <a href="#balance">at the bottom of this page</a>
+    </div>
+  </div>
+  <div>
+    <h3>Privacy Policy</h3>
+    <div>
+      As I work towards publishing the game on the Play Store with the release of the beta,
+      I've been working towards meeting all their compliance stuff.
+      One of which is a privacy policy.
+      <a href="https://bestagon.alchemix.dev/legal/privacy.html">You can view it here: https://bestagon.alchemix.dev/legal/privacy.html</a>,
+      and there's also a button in the settings to view it. A button will be added to the website homepage when I can.
+    </div>
+  </div>
+  <div>
+    <h3>Saving</h3>
+    <div>
+      This is not completely tested.
+      There are likely still bugs, but saving and loading is now available.
+      The game will automatically save when a wave ends, and when a wave starts.
+      Any new save will overwrite your old save.
+      If it gets corrupted while saving, you save will be lost.
+      But, saving is now here, so if you need to pause for a bit, there's almost no worry that you'll lose your progress.
+    </div>
+    <div>
+      If you do discover any bugs related to saving,
+      please do make sure to report them on discord or email <a href="mailto:bestagon@alchemix.dev?subject=Saving Bug">bestagon@alchemix.dev</a>
+    </div>
+    <div>
+      This also bring about a change to when we save to the leaderboard.
+      Rather than upload your score when it's game over or you pause the game,
+      we now save whenever the local save is made (after waves and when the next one starts)
+      meaning as soon as someone beats your score, it's saved.
+      We also don't retry the save if it failed, this way we're more likely to save a score
+      (even if it's a wave or two below what you achieved).
+    </div>
+    <div>
+      <h3>GitHub Issues</h3>
+      <div>
+        This one's more for development, but we've moved from using the Notion To Do list to GitHub issues.
+        This allows other people to more easily collaborate, and better integrates the to do list with both code and pull requests.
+        The updates to the to do list are also more easily available in Discord too.
+      </div>
+    </div>
+    <div>
+      <h3>GitHub Actions Working</h3>
+      <div>
+        GitHub actions are finally working! They now automatically build for Linux, Windows (64x and not).
+        These happen as soon as someone pushes to the repository (aka the new nightly/dev builds).
+        Sadly MacOS/OSX and Android aren't working, I'm aiming to look into these at a further date so everyone has access.
+      </div>
+    </div>
+  </div>
+  <div>
+    <h2>Not So Significants</h2>
+    <div>
+      <h3>Shop UI Improvements</h3>
+      <div>
+        The Shop UI got some significant enhancements in terms of how well it scales with screen size.
+        On phones, it won't be quite so squished for example and all the text readable.
+        Due to an imperfect solution some of the text is tiny, and
+        <a href="https://github.com/Greenfoot5/Bestagon-Defence/issues/112">the issue 112 on github</a> will remain open,
+        so it's noted as something that's still not finished.
+      </div>
+      <div>
+        The margins at the bottom and sides of the shop have also been reduced
+        while at the top text was added to make it clear that the game is paused while the shop is open.
+      </div>
+    </div>
+    <div>
+      <h3>New Art</h3>
+      <div>
+        The map and the fast enemies got some art improvements!
+        These do make the game slightly less clear and mostly add gradients.
+        There are plans to add art to all enemies and turrets before beta, but I'm not sure yet what it will look like.
+        This is separate from the 3d art attempts.
+      </div>
+    </div>
+    <div>
+      <h3>Level Removals</h3>
+      <div>
+        Both Hexagon and Polygon have been removed from the map pool.
+        This is because I'd prefer to focus on just three levels (those with unique balance) rather than having three levels with the same balance plus two others.
+        It devalues the levels that are balanced the same, and demotivates balancing Loop and Upgrade as the balance only affects on map.
+      </div>
+      <div>
+        The maps have not been deleted, but are just no longer packaged in a build, nor in the level select.
+        They may make a comeback at some point, but there's no plan for that currently.
+      </div>
+    </div>
+  </div>
+  <div>
+    <h2>Other Changes</h2>
+    <div>
+      <h3>Updated Unity Version</h3>
+      <div>
+        We're now using Unity 2022 for the project.
+        While not a LTS version, it's stable enough that I felt I could use it after 2021 was crashing too much when I wanted to work.
+      </div>
+      </div>
+    <div>
+      <h3>Main Menu Improvements</h3>
+      <div>
+        Based on if you're playing the release version, the beta, the alpha or a nightly/dev build, the wordmark will change colour to reflect the version you're playing.
+      </div>
+<div>There are also some social buttons at the bottom right, one for Github, one for Ko-Fi and one for Discord.
+</div>
+    </div>
+    <div>
+      <h3>Enemies now rotate towards their target</h3>
+      <div>
+        The rotation is instant, but it means tracer (fast enemy) now actually looks where it's going. This was a small experiment during development to see if it makes units like the square better, and it appears it does.
+      </div>
+    </div>
+    <div>
+      <h3>Projectiles are now drawn on top of everything but the UI</h3>
+      <div>
+        Projectiles used to hide under other enemies and turrets, but they are now drawn on top meaning you can see them almost anywhere.
+      </div>
+    </div>
+    <h3>Many, many bug fixes.</h3>
+    <div>
+      Most of these were bugs discovered by new features and the nightly builds.
+    </div>
+  </div>
+  <div>
+    <h2 id="balance">Balance Changes</h2>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1023.9993"
+   viewBox="0 0 1024 1023.9993"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="icon_red.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#171717"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.51882119"
+     inkscape:cx="914.57328"
+     inkscape:cy="329.59332"
+     inkscape:window-width="3440"
+     inkscape:window-height="1417"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true"
+     showguides="true"
+     inkscape:snap-global="true"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#171717">
+    <inkscape:grid
+       type="xygrid"
+       id="grid836"
+       originx="-717.23313"
+       originy="82.656864" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient19298"
+       id="linearGradient15528"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1895356,0,0,1.1895356,-1694.0178,-712.42147)"
+       x1="854.69128"
+       y1="315.17227"
+       x2="854.69128"
+       y2="471.98212" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient19298">
+      <stop
+         style="stop-color:#85093b;stop-opacity:1"
+         offset="0"
+         id="stop19294" />
+      <stop
+         style="stop-color:#341536;stop-opacity:1"
+         offset="1"
+         id="stop19296" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13281"
+       id="linearGradient13275"
+       x1="3230.3289"
+       y1="1276.0646"
+       x2="3230.3291"
+       y2="1746.4622"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient13281">
+      <stop
+         style="stop-color:#f91b75;stop-opacity:1"
+         offset="0"
+         id="stop13277" />
+      <stop
+         style="stop-color:#ed1655;stop-opacity:1"
+         offset="1"
+         id="stop13279" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter45196"
+       x="-0.16506426"
+       y="-0.14294985"
+       width="1.3301285"
+       height="1.2858997">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="28.018024"
+         id="feGaussianBlur45198" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20537"
+       id="linearGradient15530"
+       gradientUnits="userSpaceOnUse"
+       x1="3230.3289"
+       y1="1276.0646"
+       x2="3230.3289"
+       y2="1746.462" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient20537">
+      <stop
+         style="stop-color:#1e202c;stop-opacity:1;"
+         offset="0"
+         id="stop20533" />
+      <stop
+         style="stop-color:#1e202c;stop-opacity:0;"
+         offset="1"
+         id="stop20535" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter20785"
+       x="-0.3198212"
+       y="-0.33209803"
+       width="1.6396424"
+       height="1.6641961">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.8724626"
+         id="feGaussianBlur20787" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16378"
+       id="linearGradient16380"
+       x1="-677.33228"
+       y1="-232.90215"
+       x2="-677.33228"
+       y2="-163.91248"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient16378">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop16374" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop16376" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter45190"
+       x="-0.19319312"
+       y="-0.51484005"
+       width="1.3863862"
+       height="2.0296801">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.6833987"
+         id="feGaussianBlur45192" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13281"
+       id="linearGradient6750"
+       gradientUnits="userSpaceOnUse"
+       x1="3230.3289"
+       y1="1276.0646"
+       x2="3230.3291"
+       y2="1746.4622" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-717.23313,82.656866)">
+    <g
+       id="g15526"
+       inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\iconpng"
+       inkscape:export-xdpi="139.43858"
+       inkscape:export-ydpi="139.43858"
+       transform="matrix(5.489704,0,0,5.489704,4947.5855,1770.1891)">
+      <g
+         id="g50318"
+         inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon_red.png"
+         inkscape:export-xdpi="139.43846"
+         inkscape:export-ydpi="139.43846">
+        <rect
+           style="opacity:1;fill:url(#linearGradient15528);fill-opacity:1;stroke-width:3;stroke-linecap:square;paint-order:markers stroke fill"
+           id="rect15490"
+           width="186.53101"
+           height="186.53088"
+           x="-770.59753"
+           y="-337.51291"
+           ry="19.121372"
+           inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon.png"
+           inkscape:export-xdpi="139.43858"
+           inkscape:export-ydpi="139.43858" />
+        <path
+           sodipodi:type="star"
+           style="opacity:0.434243;mix-blend-mode:screen;fill:url(#linearGradient6750);fill-opacity:1;stroke:none;stroke-width:9.83586;stroke-linecap:square;paint-order:markers stroke fill;filter:url(#filter45196)"
+           id="path45194"
+           inkscape:flatsided="true"
+           sodipodi:sides="6"
+           sodipodi:cx="3230.3289"
+           sodipodi:cy="1511.2633"
+           sodipodi:r1="235.19878"
+           sodipodi:r2="203.68811"
+           sodipodi:arg1="1.5707963"
+           sodipodi:arg2="2.0943951"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 3230.3289,1746.4621 -203.6882,-117.5994 0,-235.1988 203.6882,-117.5994 203.6881,117.5994 0,235.1988 z"
+           transform="matrix(0.30500671,0,0,0.30500671,-1662.6042,-705.19286)"
+           inkscape:transform-center-x="9.8392329e-06"
+           inkscape:transform-center-y="-3.4526299e-06"
+           inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon.png"
+           inkscape:export-xdpi="139.43858"
+           inkscape:export-ydpi="139.43858" />
+        <path
+           sodipodi:type="star"
+           style="opacity:1;fill:url(#linearGradient13275);fill-opacity:1;stroke:none;stroke-width:9.83586;stroke-linecap:square;paint-order:markers stroke fill"
+           id="path15492"
+           inkscape:flatsided="true"
+           sodipodi:sides="6"
+           sodipodi:cx="3230.3289"
+           sodipodi:cy="1511.2633"
+           sodipodi:r1="235.19878"
+           sodipodi:r2="203.68811"
+           sodipodi:arg1="1.5707963"
+           sodipodi:arg2="2.0943951"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 3230.3289,1746.4621 -203.6882,-117.5994 0,-235.1988 203.6882,-117.5994 203.6881,117.5994 0,235.1988 z"
+           transform="matrix(0.30500671,0,0,0.30500671,-1662.6042,-705.19286)"
+           inkscape:transform-center-x="9.8392329e-06"
+           inkscape:transform-center-y="-3.4526299e-06"
+           inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon.png"
+           inkscape:export-xdpi="139.43858"
+           inkscape:export-ydpi="139.43858" />
+        <path
+           sodipodi:type="star"
+           style="opacity:0.724566;fill:url(#linearGradient15530);fill-opacity:1;stroke:none;stroke-width:11.7259;stroke-linecap:square;paint-order:markers stroke fill"
+           id="path15494"
+           inkscape:flatsided="true"
+           sodipodi:sides="6"
+           sodipodi:cx="3230.3289"
+           sodipodi:cy="1511.2633"
+           sodipodi:r1="235.19878"
+           sodipodi:r2="203.68811"
+           sodipodi:arg1="1.5707963"
+           sodipodi:arg2="2.0943951"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 3230.3289,1746.4621 -203.6882,-117.5994 0,-235.1988 203.6882,-117.5994 203.6881,117.5994 0,235.1988 z"
+           transform="matrix(0.25584476,0,0,0.25584476,-1503.7949,-630.89621)"
+           inkscape:transform-center-x="1.7611364e-05"
+           inkscape:transform-center-y="-7.8225211e-06"
+           inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon.png"
+           inkscape:export-xdpi="139.43858"
+           inkscape:export-ydpi="139.43858" />
+        <path
+           style="fill:#991349;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -677.33215,-172.5102 -1e-5,-11.56284 -52.11254,-30.08718 -10.01371,5.78141 z"
+           id="path15496"
+           sodipodi:nodetypes="ccccc"
+           inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon.png"
+           inkscape:export-xdpi="139.43858"
+           inkscape:export-ydpi="139.43858" />
+        <g
+           id="g15504"
+           transform="matrix(1.1951244,0,0,1.1951244,-1703.4217,-688.53432)"
+           style="opacity:0.55335;fill:#000000;stroke-width:0.836733;filter:url(#filter20785)"
+           inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon.png"
+           inkscape:export-xdpi="139.43858"
+           inkscape:export-ydpi="139.43858">
+          <path
+             id="path15498"
+             style="fill:#000000;stroke:none;stroke-width:0.221385px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 888.10117,403.41085 -29.71707,-43.7742 -29.35941,43.7742 29.73559,-12.41827 z"
+             sodipodi:nodetypes="ccccc" />
+          <path
+             id="path15500"
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.221385px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 888.10117,403.41085 -29.53831,-56.89256 -29.53817,56.89256 29.53829,-22.16826 z" />
+          <path
+             style="opacity:0.188586;fill:#000000;stroke:none;stroke-width:0.221385px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 858.56286,346.51829 10e-6,34.72418 -29.53816,22.16839 z"
+             id="path15502" />
+        </g>
+        <path
+           id="path15506"
+           style="opacity:0.496278;mix-blend-mode:overlay;fill:url(#linearGradient16380);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -677.33236,-251.65797 -21.06507,24.0044 7.14347,63.7411 h 27.8437 l 7.14347,-63.7411 z"
+           sodipodi:nodetypes="cccccc"
+           inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon.png"
+           inkscape:export-xdpi="139.43858"
+           inkscape:export-ydpi="139.43858" />
+        <g
+           id="g15514"
+           transform="matrix(1.1951244,0,0,1.1951244,-1703.4217,-699.78712)"
+           style="stroke-width:0.836733"
+           inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon.png"
+           inkscape:export-xdpi="139.43858"
+           inkscape:export-ydpi="139.43858">
+          <path
+             id="path15508"
+             style="fill:#ffffff;stroke:none;stroke-width:0.221385px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 888.10117,403.41085 -29.71707,-43.7742 -29.35941,43.7742 29.73559,-12.41827 z"
+             sodipodi:nodetypes="ccccc" />
+          <path
+             id="path15510"
+             style="fill:#20222f;fill-opacity:1;stroke:none;stroke-width:0.221385px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 888.10117,403.41085 -29.53831,-56.89256 -29.53817,56.89256 29.53829,-22.16826 z" />
+          <path
+             style="opacity:0.563275;fill:#000000;stroke:none;stroke-width:0.221385px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 858.56286,346.51829 10e-6,34.72418 -29.53816,22.16839 z"
+             id="path15512" />
+        </g>
+        <path
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -677.33219,-315.98463 10e-6,11.56284 52.11254,30.08718 10.01371,-5.78141 z"
+           id="path15524"
+           sodipodi:nodetypes="ccccc"
+           inkscape:export-filename="F:\For Series\For Friends\Greenfoot5\icon.png"
+           inkscape:export-xdpi="139.43858"
+           inkscape:export-ydpi="139.43858" />
+        <path
+           id="path15508-5"
+           style="mix-blend-mode:overlay;fill:#ffffff;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter45190)"
+           d="m -642.03032,-217.66097 -35.30195,-26.49397 -35.30179,26.49397 35.53772,-14.84138 z"
+           sodipodi:nodetypes="ccccc" />
+      </g>
+    </g>
+  </g>
+</svg>
