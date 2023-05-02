@@ -29,6 +29,7 @@
               <a href="../../itch.html" class="text-white hover:text-laser px-3 py-2 rounded-md">itch.io</a>
               <a href="../../discord.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Discord</a>
               <a href="../../support.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Ko-Fi</a>
+              <a href="https://greenfoot5.notion.site/Presskit-1083368b4d8e4654b2837bc4e64f1c13" class="text-white hover:text-laser px-3 py-2 rounded-md">Presskit</a>
             </div>
           </div>
         </div>
@@ -49,47 +50,56 @@
   Hello all, it's been a while! Sorry it's been so long,
   I've been trying to do more frequent nightly uploads only on the Discord due to a significant change in the balance.
   I think it's in an ok enough place for an alpha.
-  And during all those balance changes, I had plenty of time to add a few significant new features!
+  And during all those balance changes, I had plenty of time to add quite a few significant new features!
+  It's a long list of changes, with an even longer list of balance changes at the bottom.
+  It's also the first time trying out using the website to add patch notes, so let me know what you think!
 </div>
+<div class="text-any-dark px-16 font-futured text-lg">- Greenfoot5</div>
+
+
 <div class="pt-12 px-8 text-white">
-  <h2 class="font-futured text-lancer text-6xl justify-center flex">Super Significants</h2>
+  <h2 class="font-futured text-gunner text-6xl justify-center flex">Super Significants</h2>
+
   <div class="pt-4">
     <h3 class="font-futured text-lancer text-4xl">Tutorial</h3>
     <div>
       Add a tutorial that is rather boring and all text, but it's also only the first version.
       If you're brand new to the game, or have already played a few times, do check it out,
       as there's a few things in there that might surprise you.
-      There's also a wiki link.
+      There's also a wiki link within the tutorial so you can easily locate the wiki in-game.
     </div>
   </div>
+
   <div class="pt-4">
     <h3 class="font-futured text-lancer text-4xl">Localisation & Settings</h3>
     <div>
       The game can now be translated into different languages!
       Currently, I'm working on adding a pirate language as I only know English
-      (I've tried to learn French and Japanese in the past but sadly I've struggled).
+      (I've tried to learn French and Japanese in the past, but sadly I've struggled).
       There's still a lot to clean up, especially something like level name is used in multiple places rather than having just one reference.
+      This should be done over the next few updates as each duplicate is cleaned up one by one.
     </div>
-    <div>
+    <div class="pt-2">
       To contribute to a localisation, there are forums on Discord for it.
       If you wish to contribute, there isn't any code required, and if you really don't want to touch the code,
       you can just mention the changes in the Discord forum and a contributor will get to it as soon as they can.
       We can also add localisations without making the available so even if you only want to contribute one translation, that's fine!
+      This pirate language still needs work! There are a few modules that aren't updated, along with many buttons.
+      If you're interested in making up some pirate, join in the discussion!
+      Don't like pirate but want another fun language? Create a post for it!
     </div>
     <div>
       The discussions are only on Discord for now.
       I will be looking into how best to open the discussions on GitHub too, but for now it's Discord only.
+      During this time you're welcome to open issues or email
+      <a href="mailto:bestagon@alchemix.dev?subject=Translating" class="underline decoration-lancer-light decoration-2">bestagon@alchemix.dev</a>
+      with the specific changes you think should be made.
     </div>
-    <div>
-      The settings menu can be located from the main menu, and only contains a link to the privacy policy
-      and the localisation setting at the moment, but there are plans to at least add username changes there too before the beta.
-    </div>
-    <div>
-      This pirate language still needs work! There are a few modules that aren't updated, along with many buttons.
-      If you're interested in making up some pirate, join in the discussion!
-      Don't like pirate but want another fun language? Create it!
+    <div class="pt-2">
+      You can change your localisation from the brand new settings menu (there's a button on the main menu).
     </div>
   </div>
+
   <div class="pt-4">
     <h3 class="font-futured text-lancer text-4xl">Merged Modules</h3>
     <div>
@@ -97,19 +107,21 @@
       This means very, *very*, significant changes to the modules balance,
       the highest level of each module has probably increased for every module.
       For example, damage, range and fire rate now reach T7.
-      You can find the balance changes <a href="#balance">at the bottom of this page</a>
+      You can find the balance changes <a href="#balance" class="underline decoration-lancer-light decoration-2">at the bottom of this page</a>
     </div>
   </div>
+
   <div class="pt-4">
     <h3 class="font-futured text-lancer text-4xl">Privacy Policy</h3>
     <div>
       As I work towards publishing the game on the Play Store with the release of the beta,
       I've been working towards meeting all their compliance stuff.
       One of which is a privacy policy.
-      <a href="https://bestagon.alchemix.dev/legal/privacy.html">You can view it here: https://bestagon.alchemix.dev/legal/privacy.html</a>,
+      <a href="https://bestagon.alchemix.dev/legal/privacy.html" class="underline decoration-lancer-light decoration-2">You can view it here: https://bestagon.alchemix.dev/legal/privacy.html</a>,
       and there's also a button in the settings to view it. A button will be added to the website homepage when I can.
     </div>
   </div>
+
   <div class="pt-4">
     <h3 class="font-futured text-lancer text-4xl">Saving</h3>
     <div>
@@ -121,10 +133,6 @@
       But, saving is now here, so if you need to pause for a bit, there's almost no worry that you'll lose your progress.
     </div>
     <div>
-      If you do discover any bugs related to saving,
-      please do make sure to report them on discord or email <a href="mailto:bestagon@alchemix.dev?subject=Saving Bug">bestagon@alchemix.dev</a>
-    </div>
-    <div>
       This also bring about a change to when we save to the leaderboard.
       Rather than upload your score when it's game over or you pause the game,
       we now save whenever the local save is made (after waves and when the next one starts)
@@ -132,7 +140,12 @@
       We also don't retry the save if it failed, this way we're more likely to save a score
       (even if it's a wave or two below what you achieved).
     </div>
+    <div class="pt-2">
+      If you do discover any bugs related to saving,
+      please do make sure to report them on discord or email <a href="mailto:bestagon@alchemix.dev?subject=Saving Bug" class="underline decoration-lancer-light decoration-2">bestagon@alchemix.dev</a>.
+    </div>
   </div>
+
   <div class="pt-4">
     <h3 class="font-futured text-lancer text-4xl">GitHub Issues</h3>
     <div>
@@ -141,6 +154,7 @@
       The updates to the to do list are also more easily available in Discord too.
     </div>
   </div>
+
   <div class="pt-4">
     <h3 class="font-futured text-lancer text-4xl">GitHub Actions Working</h3>
     <div>
@@ -149,15 +163,18 @@
       Sadly MacOS/OSX and Android aren't working, I'm aiming to look into these at a further date so everyone has access.
     </div>
   </div>
+
+
   <div class="pt-12">
-    <h2 class="font-futured text-lancer text-6xl flex justify-center">Not So Significants</h2>
+    <h2 class="font-futured text-gunner text-6xl flex justify-center">Not So Significants</h2>
+
     <div class="pt-4">
       <h3 class="font-futured text-lancer text-4xl">Shop UI Improvements</h3>
       <div>
         The Shop UI got some significant enhancements in terms of how well it scales with screen size.
         On phones, it won't be quite so squished for example and all the text readable.
         Due to an imperfect solution some of the text is tiny, and
-        <a href="https://github.com/Greenfoot5/Bestagon-Defence/issues/112">the issue 112 on github</a> will remain open,
+        <a href="https://github.com/Greenfoot5/Bestagon-Defence/issues/112" class="underline decoration-lancer-light decoration-2">issue #112 on github</a> will remain open,
         so it's noted as something that's still not finished.
       </div>
       <div>
@@ -165,6 +182,7 @@
         while at the top text was added to make it clear that the game is paused while the shop is open.
       </div>
     </div>
+
     <div class="pt-4">
       <h3 class="font-futured text-lancer text-4xl">New Art</h3>
       <div>
@@ -174,6 +192,7 @@
         This is separate from the 3d art attempts.
       </div>
     </div>
+
     <div class="pt-4">
       <h3 class="font-futured text-lancer text-4xl">Level Removals</h3>
       <div>
@@ -181,21 +200,25 @@
         This is because I'd prefer to focus on just three levels (those with unique balance) rather than having three levels with the same balance plus two others.
         It devalues the levels that are balanced the same, and demotivates balancing Loop and Upgrade as the balance only affects on map.
       </div>
-      <div>
+      <div class="pt-2">
         The maps have not been deleted, but are just no longer packaged in a build, nor in the level select.
         They may make a comeback at some point, but there's no plan for that currently.
       </div>
     </div>
   </div>
+
+
   <div class="pt-12">
-    <h2 class="font-futured text-lancer text-6xl flex justify-center">Other Changes</h2>
+    <h2 class="font-futured text-gunner text-6xl flex justify-center">Other Changes</h2>
+
     <div class="pt-4">
       <h3 class="font-futured text-lancer text-4xl">Updated Unity Version</h3>
       <div>
         We're now using Unity 2022 for the project.
         While not a LTS version, it's stable enough that I felt I could use it after 2021 was crashing too much when I wanted to work.
       </div>
-      </div>
+    </div>
+
     <div class="pt-4">
       <h3 class="font-futured text-lancer text-4xl">Main Menu Improvements</h3>
       <div>
@@ -205,18 +228,21 @@
         There are also some social buttons at the bottom right, one for GitHub, one for Ko-Fi and one for Discord.
       </div>
     </div>
+
     <div class="pt-4">
       <h3 class="font-futured text-lancer text-4xl">Enemies now rotate towards their target</h3>
       <div>
         The rotation is instant, but it means tracer (fast enemy) now actually looks where it's going. This was a small experiment during development to see if it makes units like the square better, and it appears it does.
       </div>
     </div>
+
     <div class="pt-4">
       <h3 class="font-futured text-lancer text-4xl">Projectiles are now drawn on top of everything but the UI</h3>
       <div>
         Projectiles used to hide under other enemies and turrets, but they are now drawn on top meaning you can see them almost anywhere.
       </div>
     </div>
+
     <div class="pt-4">
       <h3 class="font-futured text-lancer text-4xl">Many, many bug fixes.</h3>
       <div>
@@ -224,9 +250,182 @@
       </div>
     </div>
   </div>
+
+
+
   <div class="pt-16">
-    <h2 id="balance" class="font-futured text-lancer text-6xl justify-center flex">Balance Changes</h2>
+    <h2 id="balance" class="font-futured text-choker text-6xl justify-center flex">Balance Changes</h2>
+
+    <div class="pt-4">
+      <h3 class="font-futured text-lobber text-4xl">Modules</h3>
+      <div class="pt-2">
+
+        <h4 class="text-2xl font-futured">Bombs</h4>
+        <div class="px-16 flex grid-rows-2 gap-12">
+          <table class="table-auto border border-collapse border-any-light caption-bottom px-2">
+            <caption class="text-any-dark">
+              <a class="text-gunner-dark">Gunner</a> & <a class="text-shooter-dark">Shooter</a> Stats
+            </caption>
+            <thead>
+            <tr>
+              <th class="border px-2"></th>
+              <th class="border px-2">Explosion Radius</th>
+              <th class="border px-2">Damage</th>
+              <th class="border px-2">Fire Rate</th>
+              <th class="border px-2">Range</th>
+              <th class="border px-2">Bullet Speed</th>
+            </tr>
+            </thead>
+            <tbody class="text-center">
+            <tr class="border-y">
+              <th class="border-r px-2">T1</th>
+              <td class="px-2">+30%</td>
+              <td class="px-2">+35%</td>
+              <td class="px-2">-5%</td>
+              <td class="px-2">-10%</td>
+              <td class="px-2">-5%</td>
+            </tr>
+            <tr class="border-y">
+              <th class="border-r px-2">T2</th>
+              <td class="px-2">+60%</td>
+              <td class="px-2"><a class="line-through text-smasher">+50%</a> <a class="text-shooter">+75%</a></td>
+              <td class="px-2">-15%</td>
+              <td class="px-2">-20%</td>
+              <td class="px-2">-15%</td>
+            </tr>
+            <tr class="border-y">
+              <th class="border-r px-2">T3</th>
+              <td class="px-2"><a class="line-through text-smasher">+100%</a> <a class="text-shooter">+120%</a></td>
+              <td class="px-2"><a class="line-through text-smasher">+70%</a> <a class="text-shooter">+175%</a></td>
+              <td class="px-2">-40%</td>
+              <td class="px-2">-30%</td>
+              <td class="px-2">-30%</td>
+            </tr>
+            <tr class="border-y text-shooter">
+              <th class="border-r px-2">T4</th>
+              <td class="px-2">+30%</td>
+              <td class="px-2">+35%</td>
+              <td class="px-2">-5%</td>
+              <td class="px-2">-10%</td>
+              <td class="px-2">-5%</td>
+            </tr>
+            </tbody>
+          </table>
+          <table class="table-auto border border-collapse border-any-light caption-bottom px-2">
+            <caption class="text-any-dark">
+              <a class="text-smasher-dark">Smasher</a> Stats
+            </caption>
+            <thead>
+            <tr>
+              <th class="border px-2"></th>
+              <th class="border px-2">Damage</th>
+              <th class="border px-2">Range</th>
+            </tr>
+            </thead>
+            <tbody class="text-center">
+            <tr class="border-y">
+              <th class="border-r px-2">T1</th>
+              <td class="px-2">+10%</td>
+              <td class="px-2">+10%</td>
+            </tr>
+            <tr class="border-y">
+              <th class="border-r px-2">T2</th>
+              <td class="px-2"><a class="line-through text-smasher">+15%</a> <a class="text-shooter">+20%</a></td>
+              <td class="px-2"><a class="line-through text-smasher">+15%</a> <a class="text-shooter">+20%</a></td>
+            </tr>
+            <tr class="border-y">
+              <th class="border-r px-2">T3</th>
+              <td class="px-2"><a class="line-through text-smasher">+25%</a> <a class="text-shooter">+40%</a></td>
+              <td class="px-2"><a class="line-through text-smasher">+25%</a> <a class="text-shooter">+40%</a></td>
+            </tr>
+            <tr class="border-y text-shooter">
+              <th class="border-r px-2">T4</th>
+              <td class="px-2">+85%</td>
+              <td class="px-2">+85%</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="pt-4">
+        <h4 class="text-2xl font-futured">Burn</h4>
+        <div class="px-16 flex grid-rows-2 gap-12">
+          <table class="table-auto border border-collapse border-any-light caption-bottom px-2">
+            <caption class="text-any-dark">
+              Any Stats
+            </caption>
+            <thead>
+            <tr>
+              <th class="border px-2"></th>
+              <th class="border px-2"><p>Damage</p><p>(% of max health)</p></th>
+              <th class="border px-2">Tick Count</th>
+              <th class="border px-2">Tick Duration</th>
+            </tr>
+            </thead>
+            <tbody class="text-center">
+            <tr class="border-y">
+              <th class="border-r px-2">T1</th>
+              <td class="px-2">+2%</td>
+              <td class="px-2">3</td>
+              <td class="px-2">1s</td>
+            </tr>
+            <tr class="border-y">
+              <th class="border-r px-2">T2</th>
+              <td class="px-2">+3%</td>
+              <td class="px-2">6</td>
+              <td class="px-2">0.5s</td>
+            </tr>
+            <tr class="border-y text-shooter">
+              <th class="border-r px-2">T3</th>
+              <td class="px-2">+3.5%</td>
+              <td class="px-2">8</td>
+              <td class="px-2">0.25s</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="pt-4">
+        <h4 class="text-2xl font-futured">Critical</h4>
+        <div class="px-16 flex grid-rows-2 gap-12">
+          <table class="table-auto border border-collapse border-any-light caption-bottom px-2">
+            <caption class="text-any-dark">
+              Any Stats
+            </caption>
+            <thead>
+            <tr>
+              <th class="border px-2"></th>
+              <th class="border px-2">Chance</th>
+            </tr>
+            </thead>
+            <tbody class="text-center">
+            <tr class="border-y">
+              <th class="border-r px-2">T1</th>
+              <td class="px-2">+5% ÷ fire rate</td>
+            </tr>
+            <tr class="border-y text-shooter">
+              <th class="border-r px-2">T2</th>
+              <td class="px-2">+3% ÷ fire rate</td>
+            </tr>
+            <tr class="border-y text-shooter">
+              <th class="border-r px-2">T3</th>
+              <td class="px-2">+3.5% ÷ fire rate</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
+
+
+<!--Bottom border-->
+<div class="pt-16"></div>
+
+
 </body>
 </html>
