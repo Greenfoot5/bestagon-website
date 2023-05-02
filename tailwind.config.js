@@ -44,6 +44,11 @@ module.exports = {
           light: '#f8653a',
           dark: '#bb4c29',
         },
+        lobber: {
+          DEFAULT: '#f8ac25',
+          light: '#fdd738',
+          dark: '#ba801c'
+        }
       },
       content: {
         'life': 'url("/assets/life.png")',
