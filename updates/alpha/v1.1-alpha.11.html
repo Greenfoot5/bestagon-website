@@ -22,7 +22,7 @@
           <div class="flex-shrink-0"><img class="h-8 w-8" src="../../assets/icon-nb.svg" alt="Bestagon Logo"></div>
           <div class="hidden md:block font-futured font-medium text-lg">
             <div class="ml-10 flex items-baseline space-x-4">
-              <a href="#" class="text-lg text-smasher px-3 py-2 rounded-md" aria-current="page">v1.1-alpha.1</a>
+              <a href="#" class="text-lg text-smasher px-3 py-2 rounded-md" aria-current="page">v1.1-alpha.11</a>
               <a href="../../index.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Home</a>
               <a href="../../wiki.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Wiki</a>
               <a href="../../github.html" class="text-white hover:text-laser px-3 py-2 rounded-md">Github</a>
@@ -40,16 +40,21 @@
 <!--Notification Banner-->
 <div id="bannerRoot"></div>
 
-<div>
+<!--Banner/Wordmark-->
+<div class="bg-background flex justify-center">
+  <img src="../../assets/banners/Bestagon_v1.1-alpha.11_Wordmark.png" class="w-1/2" alt="v1.1-alpha.11 banner">
+</div>
+
+<div class="text-white px-16 font-futured text-2xl">
   Hello all, it's been a while! Sorry it's been so long,
   I've been trying to do more frequent nightly uploads only on the Discord due to a significant change in the balance.
   I think it's in an ok enough place for an alpha.
   And during all those balance changes, I had plenty of time to add a few significant new features!
 </div>
-<div>
-  <h2>Super Significants</h2>
-  <div>
-    <h3>Tutorial</h3>
+<div class="pt-12 px-8 text-white">
+  <h2 class="font-futured text-lancer text-6xl justify-center flex">Super Significants</h2>
+  <div class="pt-4">
+    <h3 class="font-futured text-lancer text-4xl">Tutorial</h3>
     <div>
       Add a tutorial that is rather boring and all text, but it's also only the first version.
       If you're brand new to the game, or have already played a few times, do check it out,
@@ -57,8 +62,8 @@
       There's also a wiki link.
     </div>
   </div>
-  <div>
-    <h3>Localisation & Settings</h3>
+  <div class="pt-4">
+    <h3 class="font-futured text-lancer text-4xl">Localisation & Settings</h3>
     <div>
       The game can now be translated into different languages!
       Currently, I'm working on adding a pirate language as I only know English
@@ -75,7 +80,6 @@
       The discussions are only on Discord for now.
       I will be looking into how best to open the discussions on GitHub too, but for now it's Discord only.
     </div>
-
     <div>
       The settings menu can be located from the main menu, and only contains a link to the privacy policy
       and the localisation setting at the moment, but there are plans to at least add username changes there too before the beta.
@@ -86,8 +90,8 @@
       Don't like pirate but want another fun language? Create it!
     </div>
   </div>
-  <div>
-    <h3>Merged Modules</h3>
+  <div class="pt-4">
+    <h3 class="font-futured text-lancer text-4xl">Merged Modules</h3>
     <div>
       Two modules of the same tier, will now be merged into the next tier!
       This means very, *very*, significant changes to the modules balance,
@@ -96,8 +100,8 @@
       You can find the balance changes <a href="#balance">at the bottom of this page</a>
     </div>
   </div>
-  <div>
-    <h3>Privacy Policy</h3>
+  <div class="pt-4">
+    <h3 class="font-futured text-lancer text-4xl">Privacy Policy</h3>
     <div>
       As I work towards publishing the game on the Play Store with the release of the beta,
       I've been working towards meeting all their compliance stuff.
@@ -106,8 +110,8 @@
       and there's also a button in the settings to view it. A button will be added to the website homepage when I can.
     </div>
   </div>
-  <div>
-    <h3>Saving</h3>
+  <div class="pt-4">
+    <h3 class="font-futured text-lancer text-4xl">Saving</h3>
     <div>
       This is not completely tested.
       There are likely still bugs, but saving and loading is now available.
@@ -128,27 +132,27 @@
       We also don't retry the save if it failed, this way we're more likely to save a score
       (even if it's a wave or two below what you achieved).
     </div>
+  </div>
+  <div class="pt-4">
+    <h3 class="font-futured text-lancer text-4xl">GitHub Issues</h3>
     <div>
-      <h3>GitHub Issues</h3>
-      <div>
-        This one's more for development, but we've moved from using the Notion To Do list to GitHub issues.
-        This allows other people to more easily collaborate, and better integrates the to do list with both code and pull requests.
-        The updates to the to do list are also more easily available in Discord too.
-      </div>
-    </div>
-    <div>
-      <h3>GitHub Actions Working</h3>
-      <div>
-        GitHub actions are finally working! They now automatically build for Linux, Windows (64x and not).
-        These happen as soon as someone pushes to the repository (aka the new nightly/dev builds).
-        Sadly MacOS/OSX and Android aren't working, I'm aiming to look into these at a further date so everyone has access.
-      </div>
+      This one's more for development, but we've moved from using the Notion To Do list to GitHub issues.
+      This allows other people to more easily collaborate, and better integrates the to do list with both code and pull requests.
+      The updates to the to do list are also more easily available in Discord too.
     </div>
   </div>
-  <div>
-    <h2>Not So Significants</h2>
+  <div class="pt-4">
+    <h3 class="font-futured text-lancer text-4xl">GitHub Actions Working</h3>
     <div>
-      <h3>Shop UI Improvements</h3>
+      GitHub actions are finally working! They now automatically build for Linux, Windows (64x and not).
+      These happen as soon as someone pushes to the repository (aka the new nightly/dev builds).
+      Sadly MacOS/OSX and Android aren't working, I'm aiming to look into these at a further date so everyone has access.
+    </div>
+  </div>
+  <div class="pt-12">
+    <h2 class="font-futured text-lancer text-6xl flex justify-center">Not So Significants</h2>
+    <div class="pt-4">
+      <h3 class="font-futured text-lancer text-4xl">Shop UI Improvements</h3>
       <div>
         The Shop UI got some significant enhancements in terms of how well it scales with screen size.
         On phones, it won't be quite so squished for example and all the text readable.
@@ -161,8 +165,8 @@
         while at the top text was added to make it clear that the game is paused while the shop is open.
       </div>
     </div>
-    <div>
-      <h3>New Art</h3>
+    <div class="pt-4">
+      <h3 class="font-futured text-lancer text-4xl">New Art</h3>
       <div>
         The map and the fast enemies got some art improvements!
         These do make the game slightly less clear and mostly add gradients.
@@ -170,8 +174,8 @@
         This is separate from the 3d art attempts.
       </div>
     </div>
-    <div>
-      <h3>Level Removals</h3>
+    <div class="pt-4">
+      <h3 class="font-futured text-lancer text-4xl">Level Removals</h3>
       <div>
         Both Hexagon and Polygon have been removed from the map pool.
         This is because I'd prefer to focus on just three levels (those with unique balance) rather than having three levels with the same balance plus two others.
@@ -183,43 +187,46 @@
       </div>
     </div>
   </div>
-  <div>
-    <h2>Other Changes</h2>
-    <div>
-      <h3>Updated Unity Version</h3>
+  <div class="pt-12">
+    <h2 class="font-futured text-lancer text-6xl flex justify-center">Other Changes</h2>
+    <div class="pt-4">
+      <h3 class="font-futured text-lancer text-4xl">Updated Unity Version</h3>
       <div>
         We're now using Unity 2022 for the project.
         While not a LTS version, it's stable enough that I felt I could use it after 2021 was crashing too much when I wanted to work.
       </div>
       </div>
-    <div>
-      <h3>Main Menu Improvements</h3>
+    <div class="pt-4">
+      <h3 class="font-futured text-lancer text-4xl">Main Menu Improvements</h3>
       <div>
         Based on if you're playing the release version, the beta, the alpha or a nightly/dev build, the wordmark will change colour to reflect the version you're playing.
       </div>
-<div>There are also some social buttons at the bottom right, one for Github, one for Ko-Fi and one for Discord.
-</div>
+      <div>
+        There are also some social buttons at the bottom right, one for GitHub, one for Ko-Fi and one for Discord.
+      </div>
     </div>
-    <div>
-      <h3>Enemies now rotate towards their target</h3>
+    <div class="pt-4">
+      <h3 class="font-futured text-lancer text-4xl">Enemies now rotate towards their target</h3>
       <div>
         The rotation is instant, but it means tracer (fast enemy) now actually looks where it's going. This was a small experiment during development to see if it makes units like the square better, and it appears it does.
       </div>
     </div>
-    <div>
-      <h3>Projectiles are now drawn on top of everything but the UI</h3>
+    <div class="pt-4">
+      <h3 class="font-futured text-lancer text-4xl">Projectiles are now drawn on top of everything but the UI</h3>
       <div>
         Projectiles used to hide under other enemies and turrets, but they are now drawn on top meaning you can see them almost anywhere.
       </div>
     </div>
-    <h3>Many, many bug fixes.</h3>
-    <div>
-      Most of these were bugs discovered by new features and the nightly builds.
+    <div class="pt-4">
+      <h3 class="font-futured text-lancer text-4xl">Many, many bug fixes.</h3>
+      <div>
+        Most of these were bugs discovered by new features and the nightly builds.
+      </div>
     </div>
   </div>
-  <div>
-    <h2 id="balance">Balance Changes</h2>
-    </div>
+  <div class="pt-16">
+    <h2 id="balance" class="font-futured text-lancer text-6xl justify-center flex">Balance Changes</h2>
+  </div>
 </div>
 </body>
 </html>
