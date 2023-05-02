@@ -2,8 +2,8 @@
   "version": "1.0",
   "type": "rich",
   "title": "v1.1-alpha.11",
-  "url": "https://bestagon.alchemix.dev/updates/castle-siege/23-april.html",
+  "url": "https://bestagon.alchemix.dev/updates/alpha/v1.1-alpha.11.html",
   "provider_name": "Bestagon Defence",
   "provider_url": "https://bestagon.alchemix.dev/",
-  "html": "<p></p>"
+  "html": "<p>Hello all, it's been a while! Sorry it's been so long,\n  I've been trying to do more frequent nightly uploads only on the Discord due to a significant change in the balance.\n  I think it's in an ok enough place for an alpha.\n  And during all those balance changes, I had plenty of time to add quite a few significant new features!\n  It's a long list of changes, with an even longer list of balance changes at the bottom.\n  It's also the first time trying out using the website to add patch notes, so let me know what you think!</p>"
 }
