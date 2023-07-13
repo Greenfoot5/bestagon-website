@@ -1,6 +1,7 @@
 let divRoot;
 
 function getBanner(div) {
+    return;
     divRoot = div;
     divRoot.className += "bg-lancer";
     divRoot.innerHTML = "    <div class=\"mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8\">\n" +
